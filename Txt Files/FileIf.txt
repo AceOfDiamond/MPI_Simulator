@@ -1,0 +1,6 @@
+    {
+        CBLAS ( param )
+        MPI_Send(&number, 1, MPI_INT, 1, 0, MPI_COMM_WORLD);
+        MPI_Send(&number, 1, MPI_INT, 2, 0, MPI_COMM_WORLD);
+        MM ( param )
+    }

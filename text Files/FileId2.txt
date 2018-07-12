@@ -1,0 +1,5 @@
+    {
+        Prod ( param )
+        MPI_Recv(&number, 1, MPI_INT, 0, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
+        CBLAS ( param )
+    }

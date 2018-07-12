@@ -1,0 +1,6 @@
+C1 CBLAS 4
+C1 Prod 5
+C1 MM 2
+C2 CBLAS 7
+C2 Prod 2
+C2 MM 4
