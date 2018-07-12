@@ -24,8 +24,8 @@ def main(nbMach):
     func.CodetoTask(nbMach)
     func.diagram()
     tab = func.diagram()
-    for i in tab:
-        print (i)
+    #for i in tab:
+    #    print (i)
     #Plot_Gantt(tab)
 if __name__ == '__main__':
     main(3)
