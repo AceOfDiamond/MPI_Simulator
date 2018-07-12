@@ -9,7 +9,7 @@ def Plot_Gantt (tab):
 def main(nbMach):
     """"""
     """ reset the file each execution """
-
+    open("gantt.txt", "w").close()
     for i in range(nbMach):
         open("Txt Files/FileIf.txt", "w").close()
         open("Txt Files/FileOthermachine.txt", "w").close()
